@@ -1,0 +1,37 @@
+{
+  "name": "knex-sql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "knex": "knex",
+    "knex:migrate": "knex migrate:latest",
+    "knex:migrate:make": "knex migrate:make",
+    "knex:seed:make": "knex seed:make",
+    "knex:seed:run": "knex seed:run",
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo": "^2.3.1",
+    "apollo-datasource": "^0.2.2",
+    "apollo-server": "^2.3.2",
+    "apollo-server-express": "^2.3.2",
+    "apollo-server-testing": "^2.3.2",
+    "bookshelf": "^0.14.2",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "knex": "^0.16.3",
+    "nodemon": "^1.18.9",
+    "sqlite3": "^4.0.6",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/bookshelf": "^0.9.9",
+    "@types/knex": "^0.15.1",
+    "jest": "^24.0.0",
+    "nock": "^10.0.6",
+    "node-fetch": "^2.3.0"
+  }
+}
