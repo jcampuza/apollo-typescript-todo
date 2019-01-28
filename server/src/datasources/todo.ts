@@ -1,5 +1,5 @@
 import { DataSource } from "apollo-datasource";
-import { Todo } from "../interfaces/Todo";
+import { Todo } from "../../../common/types/Todo";
 import * as Knex from "knex";
 
 export class TodoAPI extends DataSource {
